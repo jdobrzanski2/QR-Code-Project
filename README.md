@@ -1,5 +1,5 @@
 # QR-Code-Project
-Project based on https://web.stanford.edu/class/ee368/Project_06/project.html, where a MATLAB script tries finding and decoding custom QR code(s) in inputted images. Training images 1 - 12 are from the link above, while images 13 - 18 were added by Joseph to test the program (in particular the skew correction part of the script). The script successfully found and accurately extracted information out of all tested images.
+Project based on https://web.stanford.edu/class/ee368/Project_06/project.html, where a MATLAB script tries finding and decoding custom QR code(s) in inputted images. Training images 1 - 12 (and training_ground_truth.mat) are from the link above, while images 13 - 18 were added by Joseph to test the program (in particular the skew correction part of the script). The script successfully found and accurately extracted information out of all tested images.
 
 The script can be broken down into three main phases of operation: thresholding, QR code identification, and QR code data extraction.
 
